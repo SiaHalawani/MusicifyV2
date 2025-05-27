@@ -1,12 +1,10 @@
-# === Maven ===
+HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# === IDEs and Build Tools ===
-
-# Spring Tool Suite
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -15,45 +13,21 @@ target/
 .springBeans
 .sts4-cache
 
-# IntelliJ IDEA
-.idea/
+### IntelliJ IDEA ###
+.idea
 *.iws
 *.iml
 *.ipr
 
-# NetBeans
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
-# VS Code
-.vscode/
-
-# Gradle
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# === Media and large files (prevent push failures) ===
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.mp3
-*.wav
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.zip
-*.rar
-*.7z
-*.iso
-
-# === OS/Temp files ===
-.DS_Store
-Thumbs.db
-*.log
-*.tmp
+### VS Code ###
+.vscode/
